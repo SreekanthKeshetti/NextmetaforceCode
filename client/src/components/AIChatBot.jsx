@@ -69,9 +69,7 @@ export default function Chatbot() {
       );
       setFlow({ type: "service-flow", step: "service" });
     } else if (opt.id === "careers") {
-      await pushBot(
-        "You can view current openings at our Careers page: [Link]"
-      );
+      await pushBot("You can view current openings at our Careers page");
     }
   };
 

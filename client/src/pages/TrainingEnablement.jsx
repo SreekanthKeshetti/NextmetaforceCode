@@ -1,3 +1,8 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React from "react";
 import trainingImg from "../assets/ITTraining.jpg";
 import { FaChalkboardTeacher } from "react-icons/fa";
@@ -65,13 +70,11 @@ const TrainingEnablement = () => {
       <div className="service-hero">
         <div className="hero-content">
           <h1 className="Business-title">Training and Enablement</h1>
-          {/* <p className="lead mt-3">Empower Your Team for the Digital Age.</p> */}
         </div>
       </div>
 
       <div className="container py-5">
         <div className="text-center mb-4">
-          {/* <FaChalkboardTeacher size={50} color="#9c27b0" /> */}
           <h2 className="mt-3">Training and Enablement</h2>
           <p className="">Transform your workforce from users to innovators.</p>
         </div>

@@ -1,3 +1,8 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -93,9 +98,8 @@ function Footer() {
       <footer className="footer">
         <Container>
           <Row>
-            {/* Column 1: Company Info */}
             <Col md={3} sm={6} className="text-md-start text-center">
-              <p className="company-name">NextMetaForce</p>
+              <p className="company-name">Nextmetaforce</p>
               <div className="contact-info">
                 <p>
                   <i className="fa-solid fa-envelope"></i>
@@ -110,7 +114,6 @@ function Footer() {
               </div>
             </Col>
 
-            {/* Column 2: Services + Technologies */}
             <Col
               md={3}
               sm={6}
@@ -137,31 +140,8 @@ function Footer() {
                   <a href="/services#ai">Artificial Intelligence</a>
                 </li>
               </ul>
-
-              {/* <h5 className="mt-3">Technologies Expertise</h5>
-              <ul>
-                <li>
-                  <a href="/technologies/aws">AWS</a>
-                </li>
-                <li>
-                  <a href="/technologies/devops">DevOps</a>
-                </li>
-                <li>
-                  <a href="/technologies/salesforce">Salesforce</a>
-                </li>
-                <li>
-                  <a href="/technologies/azure">Azure</a>
-                </li>
-                <li>
-                  <a href="/technologies/dynamics">Microsoft Dynamics</a>
-                </li>
-                <li>
-                  <a href="/technologies/oracle">Oracle</a>
-                </li>
-              </ul> */}
             </Col>
 
-            {/* Column 3: Quick Links (Site Map) */}
             <Col
               md={3}
               sm={6}
@@ -190,7 +170,6 @@ function Footer() {
               </ul>
             </Col>
 
-            {/* Column 4: Industries + Socials */}
             <Col
               md={3}
               sm={6}
@@ -258,7 +237,7 @@ function Footer() {
           <hr className="mt-5 mb-3 border-secondary" />
           <div className="text-center">
             <p>
-              &copy; {new Date().getFullYear()} NextMetaForce. All rights
+              &copy; {new Date().getFullYear()} Nextmetaforce. All rights
               reserved.
             </p>
           </div>

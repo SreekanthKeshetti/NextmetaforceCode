@@ -1,3 +1,8 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React, { useRef } from "react";
 import Slider from "react-slick";
 import { Container, Row, Col } from "react-bootstrap";
@@ -151,7 +156,7 @@ export default function Industries() {
         <Container>
           <Row className="align-items-center mb-4">
             <Col>
-              <h3 className="titleText">Customer Stories and Insights</h3>
+              <h3 className="titleText">Customer Stories And Insights</h3>
             </Col>
             <Col className="text-end">
               <button className="arrow-btn me-2" onClick={prev}>

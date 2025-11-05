@@ -1,8 +1,10 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React from "react";
-import Lists from "../components/Lists";
 import AboutUsInfo from "../components/AboutUsInfo";
-import Testimonial from "../components/Testimonial";
-import StretchyGallery from "../components/StretchyGallery";
 import NewForm from "../components/NewForm";
 import backgroundImage from "../assets/building.jpg";
 import AboutUs from "../components/AboutUs";
@@ -19,8 +21,6 @@ function AboutUsPage() {
           <h1 className="aboutus-heading-unique">Building the Future</h1>
           <p className="aboutus-subtext">
             We are a team of dedicated innovators
-            {/* , creating impactful digital
-            solutions that empower industries worldwide. */}
           </p>
         </div>
 
@@ -91,15 +91,11 @@ function AboutUsPage() {
         `}</style>
       </div>
 
-      {/* Rest of the page */}
       <AboutUs />
       <WhoWeAre />
-      {/* <Lists /> */}
       <AboutUsInfo />
       <ValuesGallery />
 
-      {/* <StretchyGallery /> */}
-      {/* <Testimonial /> */}
       <NewForm />
     </>
   );

@@ -1,14 +1,16 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import {
-  // Existing Fa Icons (keep if used elsewhere or still relevant for certain items)
   FaUsers,
   FaCogs,
-  FaRocket, // Keeping for general use if needed, but not for "What We Do" primary now
-  FaShieldAlt, // Keeping for general use if needed, but not for "What We Do" primary now
-  FaBalanceScale, // Keeping for general use if needed, but not for "What We Do" primary now
-
-  // Specific Fa Icons for "What We Do"
+  FaRocket,
+  FaShieldAlt,
+  FaBalanceScale,
   FaHandshake, // CRM Transformation, Client-Centricity
   FaLightbulb, // Digital Consulting, Integrity & Innovation
   FaCloudUploadAlt, // Industry Cloud Enablement
@@ -52,57 +54,57 @@ const AboutUs = () => {
 
   const whatWeDoCards = [
     {
-      icon: <FaHandshake size={28} color="#f94144" />, // Updated Icon
+      icon: <FaHandshake size={28} color="#f94144" />,
       title: "CRM Transformation",
       desc: "End-to-end strategy, implementation, and optimization across Salesforce, Oracle, and Microsoft Dynamics platforms.",
     },
     {
-      icon: <FaLightbulb size={28} color="#f3722c" />, // Updated Icon
+      icon: <FaLightbulb size={28} color="#f3722c" />,
       title: "Digital Consulting & Implementation",
       desc: "Business-aligned roadmaps, platform integration, and scalable architecture for cloud-native and legacy environments.",
     },
     {
-      icon: <FaCloudUploadAlt size={28} color="#f9c74f" />, // Updated Icon
+      icon: <FaCloudUploadAlt size={28} color="#f9c74f" />,
       title: "Industry Cloud Enablement",
       desc: "Tailored solutions across verticals — Manufacturing, Financial Services, Telecom, Health, Nonprofit, Public Sector.",
     },
     {
-      icon: <FaRobot size={28} color="#90be6d" />, // Updated Icon
+      icon: <FaRobot size={28} color="#90be6d" />,
       title: "Next-Gen Technology Enablement",
       desc: "AI, automation, smart city frameworks, and emerging tech to future-proof operations.",
     },
     {
-      icon: <FaLifeRing size={28} color="#577590" />, // Updated Icon
+      icon: <FaLifeRing size={28} color="#577590" />,
       title: "Managed Services & Support",
       desc: "SLA-driven support, performance monitoring, and continuous improvement for long-term success.",
     },
     {
-      icon: <FaIndustry size={28} color="#2b7a78" />, // Existing, good fit
+      icon: <FaIndustry size={28} color="#2b7a78" />,
       title: "Manufacturing & Automotive Cloud",
       desc: "Industry-specific cloud solutions for manufacturing, supply-chain and automotive operations.",
     },
     {
-      icon: <FaMoneyBillWave size={28} color="#3a86ff" />, // Existing, good fit
+      icon: <FaMoneyBillWave size={28} color="#3a86ff" />,
       title: "Financial Services Cloud",
       desc: "Compliance-ready cloud workflows and customer 360 for banking & financial services.",
     },
     {
-      icon: <FaSignal size={28} color="#ff6b6b" />, // Existing, good fit
+      icon: <FaSignal size={28} color="#ff6b6b" />,
       title: "Telecom Cloud",
       desc: "Network-aware, scalable cloud solutions for telecom providers and operators.",
     },
     {
-      icon: <FaHeartbeat size={28} color="#ef476f" />, // Existing, good fit
+      icon: <FaHeartbeat size={28} color="#ef476f" />,
       title: "Health Cloud",
       desc: "Secure patient-centric cloud solutions enabling interoperability and care workflows.",
     },
     {
-      icon: <FaHandsHelping size={28} color="#06d6a0" />, // Existing, good fit
+      icon: <FaHandsHelping size={28} color="#06d6a0" />,
       title: "Nonprofit Cloud",
       desc: "Mission-driven cloud tools for fundraising, programs, and constituent engagement.",
     },
     {
-      icon: <FaLandmark size={28} color="#9b5de5" />, // Existing, good fit
+      icon: <FaLandmark size={28} color="#9b5de5" />,
       title: "Public Sector Cloud",
       desc: "Governance-first cloud solutions for public sector, municipalities and agencies.",
     },

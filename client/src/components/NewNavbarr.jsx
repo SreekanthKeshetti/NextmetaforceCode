@@ -1,3 +1,8 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React, { useState, useEffect, useRef } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
@@ -22,7 +27,6 @@ export default function MyNavbar() {
     // { path: "/services", label: "View All Services →", viewAll: true },
   ];
 
-  // Handle resize, scroll, click outside
   useEffect(() => {
     const handleResize = () => {
       const mobile = window.innerWidth < 992;
@@ -75,12 +79,11 @@ export default function MyNavbar() {
     }
   };
 
-  // Determine link color based on scroll position
-  // Default non-scrolled links are white, scrolled are dark grey
   const getLinkColor = () => (scrolled ? "#333" : "#fff");
-  const getHoverColor = () => "#679ef0ff"; // Bootstrap primary blue
-  // const getActiveColor = () => "#f1b96eff"; // Active page color
-  const getActiveColor = () => "#d48223ff";
+  const getHoverColor = () => "#679ef0ff";
+  // const getActiveColor = () => "#f1b96eff";
+  // const getActiveColor = () => "#d45823e9";
+  const getActiveColor = () => "#f46b09e0";
 
   return (
     <>
@@ -102,26 +105,23 @@ export default function MyNavbar() {
           font-weight: 500;
           padding: 0.5rem 1rem;
           transition: color 0.25s ease;
-          color: ${getLinkColor()}; /* Default link color */
+          color: ${getLinkColor()}; 
           text-decoration: none;
         }
         .nav-link:hover {
-          color: ${getHoverColor()} !important; /* Hover color */
+          color: ${getHoverColor()} !important; 
           text-decoration: none;
         }
-        /* Active link styles for when it's the current page */
         .nav-link.active {
           color: ${getActiveColor()} !important; /* Active link color */
           font-weight: 600; /* Make active link bolder */
           text-decoration: none;
         }
-        /* Special case: when scrolled, non-active links are dark, active is blue */
         .glassy-navbar .nav-link { color: #333; }
         .glassy-navbar .nav-link.active { color: ${getActiveColor()} !important; }
         .glassy-navbar .nav-link:hover { color: ${getHoverColor()} !important; }
 
 
-        /* Remove extra bootstrap arrow for dropdown-toggle */
         .nav-link.dropdown-toggle::after { display: none !important; }
         .nav-link.dropdown-toggle svg {
           margin-left: 5px;
@@ -135,7 +135,6 @@ export default function MyNavbar() {
         .navbar-toggler:focus { box-shadow: none; }
 
 
-        /* Mobile menu */
         @media (max-width: 991px) {
           .mobile-menu {
             position: fixed;
@@ -168,7 +167,7 @@ export default function MyNavbar() {
           .mobile-menu .dropdown-container > .nav-link.active {
             color: ${getActiveColor()} !important;
             font-weight: 600;
-            background-color: #f0f8ff; /* Light background for active mobile link */
+            background-color: #f0f8ff; 
           }
 
           .dropdown-menu-custom {
@@ -202,7 +201,6 @@ export default function MyNavbar() {
           .dropdown-item-custom.active { background: #e0efff; color: ${getActiveColor()}; font-weight: 600; }
         }
 
-        /* Desktop dropdown */
         @media (min-width: 992px) {
           .dropdown-container {
             position: relative;
@@ -356,7 +354,6 @@ export default function MyNavbar() {
           </div>
         )}
 
-        {/* Desktop Menu */}
         {!isMobile && (
           <Navbar.Collapse>
             <Nav className="ms-auto d-flex align-items-center">

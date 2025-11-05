@@ -1,65 +1,8 @@
-// import React from "react";
-// import { Container, Button } from "react-bootstrap";
-// import backgroundImage from "../assets/SolutionImg.jpg";
-
-// export default function HeroSection() {
-//   return (
-//     <>
-//       <style>
-//         {`
-//     .hero-section {
-//   // background: url("https://images.unsplash.com/photo-1518770660439-4636190af475")
-//   //             center center/cover no-repeat;
-//   background-image: url(${backgroundImage});
-//   min-height: 90vh;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   position: relative;
-//               background-size: cover;
-
-// }
-
-// /* Dark overlay for better text visibility */
-// .hero-section::before {
-//   content: "";
-//   position: absolute;
-//   top: 0; left: 0;
-//   width: 100%; height: 100%;
-//   background: rgba(0, 0, 0, 0.5);
-// }
-
-//        .hero-section .container {
-//           position: relative;
-//           z-index: 1;
-//           }
-//         .title{
-//            font-weight: 600;
-//            font-size: 2.5rem;
-//           }
-//           .subtitle{
-//           font-size: 1.25rem;
-//           margin-bottom: 2rem;
-//           color: #f5f4f4ff;
-//           }
-
-//     `}
-//       </style>
-//       <div className="hero-section d-flex align-items-center">
-//         <Container className="text-center text-white">
-//           <h1 className="display-4 title">Our Solutions</h1>
-//           <p className="subtitle">
-//             Empowering businesses with innovative IT solutions tailored to your
-//             needs.
-//           </p>
-//           {/* <Button variant="primary" size="lg">
-//             Get Started
-//           </Button> */}
-//         </Container>
-//       </div>
-//     </>
-//   );
-// }
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React from "react";
 import { Container } from "react-bootstrap";
 import backgroundImage from "../assets/SolutionImg.jpg";
@@ -70,7 +13,7 @@ export default function HeroSection() {
       <style>
         {`
           .hero-section {
-            background-image: url("https://t3.ftcdn.net/jpg/16/38/07/94/240_F_1638079492_OFbF7dFP5zEYsTJEvwuzKi4niLv5DXR3.jpg");
+            background-image: url("https://media.istockphoto.com/id/2198524609/photo/cloud-computer-technology-and-storage-online-for-computer-business-network.jpg?s=612x612&w=0&k=20&c=FpB_evYC9gIvK32TOSQS49cULXBjgZeaymHrcsWflT0=");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -116,8 +59,8 @@ export default function HeroSection() {
           }
 
           .title {
-            font-weight: 700;
-            font-size: 2.8rem;
+            font-weight: 600;
+            font-size: 2.5rem;
             margin-bottom: 1rem;
           }
 

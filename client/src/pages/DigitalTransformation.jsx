@@ -1,5 +1,10 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React from "react";
-import digitalImg from "../assets/Digital1.jpg"; // adjust path if needed
+import digitalImg from "../assets/Digital1.jpg";
 import { FaDigitalTachograph } from "react-icons/fa";
 import { Link } from "react-router-dom";
 

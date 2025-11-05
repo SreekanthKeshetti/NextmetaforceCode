@@ -1,3 +1,9 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
+
 import React from "react";
 
 function Values() {

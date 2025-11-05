@@ -1,3 +1,8 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React, { createContext, useContext, useEffect, useState } from "react";
 
 const ThemeContext = createContext();
@@ -16,7 +21,9 @@ export const ThemeProvider = ({ children }) => {
     } catch (e) {
       // ignore storage errors
     }
-    const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const prefersDark =
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches;
     const initial = prefersDark ? "dark" : "light";
     setTheme(initial);
     document.documentElement.setAttribute("data-theme", initial);
@@ -29,9 +36,13 @@ export const ThemeProvider = ({ children }) => {
     } catch (e) {}
   }, [theme]);
 
-  const toggleTheme = () => setTheme(t => (t === "light" ? "dark" : "light"));
+  const toggleTheme = () => setTheme((t) => (t === "light" ? "dark" : "light"));
 
-  return <ThemeContext.Provider value={{ theme, toggleTheme }}>{children}</ThemeContext.Provider>;
+  return (
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
 };
 
 export const useTheme = () => useContext(ThemeContext);

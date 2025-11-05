@@ -1,3 +1,8 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React, { useState } from "react";
 import forwardImg from "../assets/Thinkingforward.jpg";
 import integrity from "../assets/Integrity.jpg";
@@ -54,6 +59,7 @@ export default function ValuesGallery() {
         }
         .gallery-header h3 {
           font-size: 1.1rem;
+          font-weight:600;
           // color: #333;
           margin-bottom: 0.5rem;
         }
@@ -67,13 +73,14 @@ export default function ValuesGallery() {
         }
         .gallery-header h2 {
           font-size: 1.5rem;
+          font-weight:600;
           // color: #1a1a1a;
           margin-bottom: 1rem;
         }
         .gallery-header p {
           font-size: 1.1rem;
           // color: #555;
-          max-width: 800px;
+          max-width: 1000px;
           margin: 0 auto;
           line-height: 1.6;
         }

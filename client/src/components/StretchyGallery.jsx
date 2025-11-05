@@ -1,3 +1,8 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import retailImg from "../assets/retail1.jpg";

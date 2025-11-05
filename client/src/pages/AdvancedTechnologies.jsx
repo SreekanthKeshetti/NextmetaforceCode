@@ -1,3 +1,8 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React from "react";
 import advancedImg from "../assets/cloudAi.webp";
 import { FaCube } from "react-icons/fa";
@@ -68,13 +73,11 @@ const AdvancedTechnologies = () => {
           <h1 className="Business-title">
             Advanced Technologies – Blockchain / Web3 / IoT
           </h1>
-          {/* <p className="lead mt-3">Pioneering the Next Digital Frontier.</p> */}
         </div>
       </div>
 
       <div className="container py-5">
         <div className="text-center mb-4">
-          {/* <FaCube size={50} color="#ff7043" /> */}
           <h2 className="mt-3">
             Advanced Technologies – Blockchain / Web3 / IoT
           </h2>
@@ -115,11 +118,6 @@ const AdvancedTechnologies = () => {
           ← Back to Services
         </Link>
       </div>
-      {/* <div className="text-center mt-5">
-        <a href="/services" className="btn btn-outline-primary">
-          ← Back to Services
-        </a>
-      </div> */}
     </>
   );
 };

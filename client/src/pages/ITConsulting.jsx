@@ -1,3 +1,8 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React from "react";
 import consultingImg from "../assets/IT&Recruitment.jpg";
 import { FaUserTie } from "react-icons/fa";
@@ -65,15 +70,11 @@ const ITConsulting = () => {
       <div className="service-hero">
         <div className="hero-content">
           <h1 className="Business-title">IT Consulting and Recruitment</h1>
-          {/* <p className="lead mt-3">
-            Your Force Multiplier for IT Talent and Strategy.
-          </p> */}
         </div>
       </div>
 
       <div className="container py-5">
         <div className="text-center mb-4">
-          {/* <FaUserTie size={50} color="#4285f4" /> */}
           <h2 className="mt-3">IT Consulting and Recruitment</h2>
           <p className="">
             Bridge the gap between your technology goals and your team's

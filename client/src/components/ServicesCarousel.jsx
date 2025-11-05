@@ -1,3 +1,8 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React from "react";
 import { Container, Carousel, Row, Col, Card } from "react-bootstrap";
 import salesForce from "../assets/salesForce.jpg";

@@ -1,51 +1,8 @@
-// // src/components/CustomCursor.jsx
-// import React, { useEffect, useState } from "react";
-
-// const CustomCursor = () => {
-//   const [position, setPosition] = useState({ x: 0, y: 0 });
-
-//   useEffect(() => {
-//     const moveCursor = (e) => {
-//       setPosition({ x: e.clientX, y: e.clientY });
-//     };
-
-//     window.addEventListener("mousemove", moveCursor);
-//     return () => window.removeEventListener("mousemove", moveCursor);
-//   }, []);
-
-//   return (
-//     <>
-//       <style>
-//         {`
-//           .custom-cursor {
-//             position: fixed;
-//             top: 0;
-//             left: 0;
-//             width: 12px;
-//             height: 12px;
-//             background-color: #ff6a00;
-//             border-radius: 50%;
-//             pointer-events: none;
-//             transform: translate(-50%, -50%);
-//             z-index: 9999;
-//             mix-blend-mode: difference;
-//             transition: transform 0.1s ease;
-//           }
-//         `}
-//       </style>
-
-//       <div
-//         className="custom-cursor"
-//         style={{
-//           transform: `translate(${position.x}px, ${position.y}px)`,
-//         }}
-//       />
-//     </>
-//   );
-// };
-
-// export default CustomCursor;
-// src/components/CustomCursor.jsx
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React, { useEffect, useRef, useState } from "react";
 
 const CustomCursor = () => {

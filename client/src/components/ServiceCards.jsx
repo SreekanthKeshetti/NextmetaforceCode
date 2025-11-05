@@ -1,3 +1,8 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import image1 from "../assets/1.jpg";

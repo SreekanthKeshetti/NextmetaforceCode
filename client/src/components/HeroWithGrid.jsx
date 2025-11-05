@@ -1,4 +1,8 @@
-// HeroWithGrid.jsx
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React from "react";
 // import heroImg from "../assets/hero-image.jpg"; // replace with your image
 
@@ -105,9 +109,7 @@ function HeroWithGrid() {
               <p>Your analytics, insights and AI — unified and actionable.</p>
               <button className="btn">Get Started</button>
             </div>
-            <div className="col-lg-6 hero-image-wrapper">
-              {/* <img src={heroImg} alt="Hero Visual" className="hero-img" /> */}
-            </div>
+            <div className="col-lg-6 hero-image-wrapper"></div>
           </div>
         </div>
       </section>

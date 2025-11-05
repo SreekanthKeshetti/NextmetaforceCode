@@ -1,3 +1,8 @@
+/**
+ * Project: Nextmetaforce Website
+ * Author: Sreekanth | Nextmetaforce Consulting LLP
+ * Created: 05-Nov-2025
+ */
 import React from "react";
 import softwareImg from "../assets/SoftwareDevelopment.jpg";
 import { FaCode } from "react-icons/fa";
@@ -67,20 +72,16 @@ const SoftwareDevelopment = () => {
 
       `}</style>
 
-      {/* Hero */}
       <div className="service-hero">
         <div className="hero-content">
           <h1 className="Business-title">
             Software Development and Implementation
           </h1>
-          {/* <p className="lead mt-3">Build the Future, Code by Code.</p> */}
         </div>
       </div>
 
-      {/* Content */}
       <div className="container py-5">
         <div className="text-center mb-4">
-          {/* <FaCode size={50} color="#34a853" /> */}
           <h2 className="mt-3">Software Development and Implementation</h2>
           <p className="">
             From visionary concept to robust, scalable software.
